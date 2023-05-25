@@ -1,0 +1,30 @@
+.cards-projetos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.esconder-cards {
+  display: none;
+  gap: 20px;
+}
+
+.esconder-cards.ativo {
+  display: flex;
+}
+
+.card {
+  background-color: green;
+  max-width: 350px;
+}
+
+.mostrar-mais {
+  display: block;
+  width: 50%;
+  height: 40px;
+  color: blueviolet;
+  margin: 20px auto;
+}

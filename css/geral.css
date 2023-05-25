@@ -1,0 +1,57 @@
+/* ========= Variaveis =========== */
+:root {
+  /* cores */
+  --bg-header-footer: #e2e2e2;
+  --bg-projetos: #f8f8f8;
+  --bg-intro-formacao: #FaFaFa;
+  --color-titulos-textos: #0e0e0e;
+  --color-destaque: #000;
+
+  /* fonts */
+  --font-titulos: 'Josefin Sans', sans-serif; 
+  --font-textos: 'Open Sans', sans-serif;
+}
+
+.dark-theme {
+  --bg-header-footer: #0E0E0E;
+  --bg-projetos: #151515;
+  --bg-intro-formacao: #212121;
+  --color-titulos-textos: #f0f0f0;
+  --color-destaque: #fff;
+}
+
+/* ========= Reset =========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ========= Estilo geral =========== */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.titulo {
+  font-family: var(--font-titulos);
+  font-size: 3rem;
+  color: var(--color-titulos-textos);
+}
+
+p {
+  font-family: var(--font-textos);
+}
