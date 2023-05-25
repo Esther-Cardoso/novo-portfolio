@@ -6,6 +6,8 @@
   --bg-intro-formacao: #FaFaFa;
   --color-titulos-textos: #0e0e0e;
   --color-destaque: #000;
+  --primary-color: #8b079c;
+  --white-color: #ffffff;
 
   /* fonts */
   --font-titulos: 'Josefin Sans', sans-serif; 
@@ -14,10 +16,13 @@
 
 .dark-theme {
   --bg-header-footer: #0E0E0E;
-  --bg-projetos: #151515;
+  --bg-projetos: #3a3a3a;
   --bg-intro-formacao: #212121;
   --color-titulos-textos: #f0f0f0;
   --color-destaque: #fff;
+
+  --primary-color: #f310f3;
+  --white-color: #ffffff;
 }
 
 /* ========= Reset =========== */
