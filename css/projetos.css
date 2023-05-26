@@ -144,6 +144,24 @@
   }
 }
 
+.gallery .card.hide {
+  display: none;
+}
+
+.gallery .card.show {
+  display: flex;
+  animation: animate 0.4s ease;
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 @media (max-width: 500px) {
   .cards .card {
   height: 400px;
