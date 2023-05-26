@@ -12,7 +12,7 @@ main {
 }
 
 /* =========== animação titulo ============ */
-/* .css-typing h1 {
+.css-typing h1 {
   border-right: .15em solid var(--color-titulos-textos);
   white-space: nowrap;
   overflow: hidden;
@@ -61,7 +61,7 @@ main {
   50% {
     border-color: transparent;
   }
-} */
+}
 
 /* ========== paragrafos =============== */
 .sobre-mim p {
