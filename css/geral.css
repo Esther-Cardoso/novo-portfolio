@@ -6,8 +6,9 @@
   --bg-intro-formacao: #FaFaFa;
   --color-titulos-textos: #0e0e0e;
   --color-destaque: #000;
-  --primary-color: #8b079c;
-  --white-color: #ffffff;
+  --bg-btn: #8b079c;
+  --bg-btn: #333;
+  --text-btn: #ffffff;
 
   /* fonts */
   --font-titulos: 'Josefin Sans', sans-serif; 
@@ -21,8 +22,9 @@
   --color-titulos-textos: #f0f0f0;
   --color-destaque: #fff;
 
-  --primary-color: #f310f3;
-  --white-color: #ffffff;
+  --bg-btn: #f310f3;
+  --bg-btn: #eee;
+  --text-btn: #000;
 }
 
 /* ========= Reset =========== */
