@@ -17,7 +17,12 @@
   font-size: 20px;
   max-width: 40ch;
   margin-bottom: 60px;
+  /* color: #a3a3a3; */
 }
+/* 
+.formacao-texto strong {
+  color: #fff;
+} */
 
 .faculdade-lista {
   display: flex;
@@ -51,6 +56,7 @@
   font-size: 1.125rem !important;
   line-height: 1.4;
   margin-bottom: 40px;
+  color: white;
 }
 
 .faculdade-instituicao {

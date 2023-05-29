@@ -27,24 +27,31 @@ footer {
   display: flex;
   align-items: center; 
   gap: 10px;
-  border: 2px solid gray;
+  border: 2px solid var(--bg-btn);
   border-radius: 50px;
   padding: 8px 15px;
   font-size: 18px;
   font-family: var(--font-textos);
-  background: #3e3e3e;
-  color: white;
+  /* background: #3e3e3e; */
+  background: transparent;
+  /* color: white; */
+  color: var(--bg-btn);
   cursor: pointer;
   transition: .3s;
+}
+
+.icones-rede-social div:hover {
+  color: var(--text-btn);
+  background: var(--bg-btn);
 }
 
 .icones-rede-social div i {
   font-size: 24px;
 }
 
-.icones-rede-social div:hover {
+/* .icones-rede-social div:hover {
   border-color: #e40ae4;
-}
+} */
 
 @media (max-width: 1000px) {
   .footer {
