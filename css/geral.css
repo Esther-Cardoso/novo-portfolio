@@ -72,6 +72,19 @@ h3, li {
   color: var(--color-titulos-textos);
 }
 
+#back-to-top {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  background-color: rgb(238, 68, 238);
+  border: none;
+  border-radius: 50%;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
 @media (max-width: 600px) {
   .titulo {
     font-size: 2.5rem !important;
