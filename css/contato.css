@@ -23,7 +23,7 @@ footer {
   align-items: center; 
 }
 
-.icones-rede-social div {
+.icones-rede-social a {
   display: flex;
   align-items: center; 
   gap: 10px;
@@ -40,18 +40,14 @@ footer {
   transition: .3s;
 }
 
-.icones-rede-social div:hover {
+.icones-rede-social a:hover {
   color: var(--text-btn);
   background: var(--bg-btn);
 }
 
-.icones-rede-social div i {
+.icones-rede-social a i {
   font-size: 24px;
 }
-
-/* .icones-rede-social div:hover {
-  border-color: #e40ae4;
-} */
 
 @media (max-width: 1000px) {
   .footer {
