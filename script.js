@@ -54,3 +54,24 @@ function initTop() {
 }
 
 initTop()
+
+function menuHamburgue() {
+  const menuHamburgue = document.querySelector('.ph-list')
+  const ul = document.querySelector('.menu ul')
+  
+  function ativarMenu() {
+    ul.classList.toggle('ativo')
+    
+    if(ul.classList.contains('ativo')) {
+      menuHamburgue.classList.remove('ph-list')
+      menuHamburgue.classList.add('ph-x')
+    } else {
+      menuHamburgue.classList.remove('ph-x')
+      menuHamburgue.classList.add('ph-list')
+    }
+  }
+  
+  menuHamburgue.addEventListener('click', ativarMenu)
+}
+
+menuHamburgue()
