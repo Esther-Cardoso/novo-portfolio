@@ -4,12 +4,11 @@
   --bg-projetos: #fff;
   --bg-intro-formacao: #fafafa;
   --bg-footer: #eeeeee;
-
+  --bg-card: #fff;
 
   --color-titulos-textos: #0e0e0e;
   --color-destaque: #000;
 
-  --bg-btn: #8b079c;
   --bg-btn: #333;
   --text-btn: #ffffff;
 
@@ -23,12 +22,11 @@
   --bg-projetos: #151515;
   --bg-intro-formacao: #111;
   --bg-footer: #0a0a0a;
-
+  --bg-card: #1d1d1d;
 
   --color-titulos-textos: #f0f0f0;
   --color-destaque: #fff;
 
-  --bg-btn: #f310f3;
   --bg-btn: #eee;
   --text-btn: #000;
 }

@@ -17,12 +17,11 @@
   font-size: 20px;
   max-width: 40ch;
   margin-bottom: 60px;
-  /* color: #a3a3a3; */
 }
-/* 
+
 .formacao-texto strong {
-  color: #fff;
-} */
+  color: var(--color-destaque);
+}
 
 .faculdade-lista {
   display: flex;

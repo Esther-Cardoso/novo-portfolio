@@ -32,9 +32,7 @@ footer {
   padding: 8px 15px;
   font-size: 18px;
   font-family: var(--font-textos);
-  /* background: #3e3e3e; */
   background: transparent;
-  /* color: white; */
   color: var(--bg-btn);
   cursor: pointer;
   transition: .3s;
