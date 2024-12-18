@@ -26,6 +26,7 @@
 .faculdade-lista {
   display: flex;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .faculdade-lista span, .faculdade-lista h3 {
