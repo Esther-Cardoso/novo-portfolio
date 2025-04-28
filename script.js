@@ -1,9 +1,41 @@
 const projects = [
   {
+    title: 'Encurtador de link',
+    description:
+      'Projeto que permite aos usuários encurtar URLs longas, tornando-as mais fáceis de compartilhar.',
+    technologies: ['React'],
+    link: 'https://encurtador-de-link-react.netlify.app/',
+    image: 'img/encurtador-link.png',
+  },
+  {
+    title: 'Conversor de Moedas',
+    description:
+      'Esse projeto permite a conversão entre diferentes moedas do mundo em tempo real.',
+    technologies: ['React'],
+    link: 'https://conversor-moedas-react.netlify.app/',
+    image: 'img/conversor-moedas.png',
+  },
+  {
+    title: 'QRCode',
+    description:
+      'Esse projeto permite gerar qrcode com qualquer link ou texto, e também é possível baixar a imagem.',
+    technologies: ['React'],
+    link: 'https://geradorqrcode-react.netlify.app/',
+    image: 'img/qrcode.png',
+  },
+  {
+    title: 'Secret Word',
+    description:
+      'Esse projeto é de adivinhar palavras, venha testar seus conhecimentos.',
+    technologies: ['React'],
+    link: 'https://secret-word-react-2025.netlify.app/',
+    image: 'img/secret-word.png',
+  },
+  {
     title: 'Movies db',
     description:
-      'Esse é um projeto de filmes, utilizei a api do The Movie Database, e é possivel favoritar os filmes.',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'React'],
+      'Esse projeto permite visualizar os 20 filmes em alta do momento, e é possível favoritar os filmes.',
+    technologies: ['React'],
     link: 'https://moviesdb-react2024.netlify.app/',
     image: 'img/movies-db.png',
   },
@@ -11,7 +43,7 @@ const projects = [
     title: 'Biscoito da sorte',
     description:
       'Esse é um projeto de um biscoito da sorte, ao clicar no botão você recebe uma notícia.',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'React'],
+    technologies: ['React'],
     link: 'https://biscoitodasorte-react.netlify.app/',
     image: 'img/biscoito-da-sorte.png',
   },
